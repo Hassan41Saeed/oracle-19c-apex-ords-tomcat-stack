@@ -1,0 +1,13 @@
+# Oracle 19c environment
+export ORACLE_BASE=/opt/app/oracle
+export ORACLE_HOME=$ORACLE_BASE/product/19.0.0/dbhome_1
+export ORACLE_SID=orcl
+export PATH=$PATH:$ORACLE_HOME/bin
+export CV_ASSUME_DISTID=OEL7
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
+
+# ORDS & Java environment
+export ORDS_HOME=/opt/app/oracle/ords
+export ORDS_CONFIG=/opt/app/oracle/ords_config
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export PATH=$ORDS_HOME/bin:$JAVA_HOME/bin:$PATH

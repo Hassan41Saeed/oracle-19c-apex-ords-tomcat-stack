@@ -1,0 +1,11 @@
+-- Phase 4.5: Unlock and set APEX Public User
+ALTER USER APEX_PUBLIC_USER ACCOUNT UNLOCK;
+ALTER USER APEX_PUBLIC_USER IDENTIFIED BY "YourApexPublicPassword";
+
+-- Phase 5.4: Unlock and set ORDS Public User
+ALTER USER ORDS_PUBLIC_USER ACCOUNT UNLOCK;
+ALTER USER ORDS_PUBLIC_USER IDENTIFIED BY "StrongPasswordHere";
+
+-- Troubleshooting: Manual Listener Registration
+ALTER SYSTEM SET local_listener='(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))' SCOPE=BOTH;
+ALTER SYSTEM REGISTER;

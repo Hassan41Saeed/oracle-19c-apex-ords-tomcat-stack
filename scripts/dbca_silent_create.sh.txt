@@ -1,0 +1,11 @@
+dbca -silent \
+-createDatabase \
+-templateName General_Purpose.dbc \
+-gdbname orcl \
+-sid orcl \
+-responseFile NO_VALUE \
+-characterSet AL32UTF8 \
+-sysPassword SysPassword123 \
+-systemPassword SysPassword123 \
+-createAsContainerDatabase false \
+-datafileDestination "/opt/app/oracle/oradata"

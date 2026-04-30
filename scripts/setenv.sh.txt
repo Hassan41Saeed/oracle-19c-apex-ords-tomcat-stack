@@ -1,0 +1,4 @@
+#!/bin/bash
+export ORDS_CONFIG=/opt/app/oracle/ords_config
+export JAVA_OPTS="$JAVA_OPTS -Dconfig.dir=$ORDS_CONFIG"
+export CATALINA_OPTS="$CATALINA_OPTS -Dconfig.dir=$ORDS_CONFIG"
