@@ -20,4 +20,6 @@ The complete, step-by-step Standard Operating Procedure is available here:
 [**Download Oracle APEX Installation SOP**](./docs/Oracle_19c_APEX_ORDS_Tomcat_SOP.pdf)
 
 ## Architecture
-![APEX Architecture](./images/apex_ecosystem_architecture.png)
+<img width="1408" height="768" alt="Apex_infra" src="https://github.com/user-attachments/assets/4c4d6bf5-1e82-42e6-bd6f-1d13a173b1fd" />
+
+
